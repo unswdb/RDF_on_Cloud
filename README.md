@@ -1,8 +1,8 @@
-## RDF_on_Cloud
+# RDF_on_Cloud
 
 This repository contains the scripts, datasets, and results for an experimental project exploring RDF (Resource Description Framework) implementation in a cloud environment. The objective is to test the performance, scalability, and efficiency of processing RDF datasets in the cloud with single-machine system and multiple-machine system, under various conditions including loading on very large dataset and high-volume querying.
 
-# Repository Structure
+## Repository Structure
 
 The repository is organized into the following main directories:
 
@@ -14,7 +14,7 @@ The repository is organized into the following main directories:
 
 
 
-# Overview of the Experiment
+## Overview of the Experiment
 The project aims to evaluate the following aspects of RDF processing in the cloud:
 
 1. Loading Efficiency: Measuring the time and resources required to load RDF datasets into the cloud environment.
@@ -31,7 +31,7 @@ Prerequisites
 - Python 3.8+ with necessary libraries listed in `scripts/requirements.txt`
 
 
-# Key Findings
+## Key Findings
 System-wise:
 1.  Several systems are outdated, with limited documentation and inactive communities, making it difficult to find resources for proper system setup.
 
@@ -40,7 +40,7 @@ System-wise:
 Performance-wise: 
 1. Massive computation resources needed for preparing the data, and additional storage space is needs while converting raw data into system compatible strucutre. 
 
-# Future Work
+## Future Work
 Current open-source systems present limitations, leaving room for future research:
 
 - Single-machine systems: While we focused on graph-based and relational databases, future work could explore systems like Hadoop, Spark, and cloud-based architectures.
@@ -49,5 +49,15 @@ Current open-source systems present limitations, leaving room for future researc
 
 - Other systems: Neo4j, a non-RDF system, outperformed RDF-based systems in some cases, suggesting that future studies could investigate other systems that may offer better performance.
 
+## Related Paper and Authors
+
+An Experimental Comparison of RDF Systems on Cloud
+
+Yi Ding - kino@eulerai.au
+Hualong Lin - hualong.lin@sigmatm.com.au
+Zhengyi Yang - zhengyi.yang@unsw.edu.au
+Dong Wen - dong.wen@unsw.edu.au
+Xiaoyang Wang - xiaoyang.wang@unsw.edu.au
+Wenjie Zhang - wenjie.zhang@unsw.edu.au
 
 
